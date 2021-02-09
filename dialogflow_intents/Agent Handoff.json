@@ -1,0 +1,101 @@
+{
+  "id": "a7de2810-0ef9-45c8-90cc-07a0a2a253bd",
+  "name": "Agent Handoff",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "__handoff__"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Talk to human",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c2674ae8-a4ea-452d-949e-88e220c50c52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Talk to an agent",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96606cb3-e638-49cd-abf4-c2249cc0f0ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I don't want to talk to a bot",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8d6bfa58-8516-4e3a-95f7-5e6083f61a81",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "talk to support",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0356d441-2a12-4b9d-9d82-a1d718dc3b43",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "speak to agent",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "baad2faa-8130-4f06-8656-3419604b4b1c",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

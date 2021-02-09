@@ -15,17 +15,17 @@ class BookingHandler
   private
   
   def trigger_booking
-    #clear redis keys
-    #init  booking
-    # Fix cards
-    #ChatwootClient.send_cards_message(@account, @conversation, 'cards', generate_cards)
+    # clear redis keys
+    # init  booking
+    # Should send cards?
+    # ChatwootClient.send_cards_message(@account, @conversation, 'cards', generate_cards)
     ChatwootClient.send_options_message(@account, @conversation, 'Select your hotel', generate_hotels)
   end
 
   def handle_booking
     case params["content"]
     when "Select your hotel"
-      #update in redis params["content_attributes"]["submitted_values"].first["value"]
+      # update in redis params["content_attributes"]["submitted_values"].first["value"]
       ChatwootClient.send_options_message(@account, @conversation, 'Select your date', generate_dates)
     when "Select your date"
       ChatwootClient.send_form_message(@account, @conversation, 'Fill your details', generate_form)

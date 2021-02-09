@@ -1,0 +1,89 @@
+{
+  "id": "9a8d72b2-ee82-47c5-b8fe-337c2fe00234",
+  "name": "Hotel Booking",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "__booking__"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "book room",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38be9e3f-2ed9-4eb2-9fdd-5346426a7955",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is there rooms available",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d48a9ad7-739e-44e6-85aa-d71c60cc8031",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to take a room",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "97140ea7-1f9a-42b6-bbfd-7684f6930c7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to book a hotel",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "efd06af2-dcb6-46d5-a560-398ac9657f90",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

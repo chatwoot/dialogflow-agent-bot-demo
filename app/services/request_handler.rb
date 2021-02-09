@@ -27,7 +27,7 @@ class RequestHandler
 
     auth_status = RedisClient.client.hget(source_id, 'auth_status')
     if auth_status != 'authenticated'
-      AuthHandler.new( params: @params, auth_status: auth_status, source_id: source_id).process
+      AuthHandler.new(params: @params, auth_status: auth_status, source_id: source_id).process
       return
     end
 

@@ -33,3 +33,6 @@
 
 # Ignore env files
 .env
+
+
+.Ds_store
