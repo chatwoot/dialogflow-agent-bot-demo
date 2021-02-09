@@ -7,7 +7,7 @@ class AuthHandler
 
     case auth_status
     when nil
-      validate_otp
+      prompt_auth_via_phone
     when 'pending'
       set_up_and_send_otp
     when 'otp_generated'
