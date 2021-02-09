@@ -3,6 +3,8 @@
 This repo contains a sample rails api which acts an agent bot and showcases an example use case of hotel booking via bot
 It relies on google dialogflow to for its NLP processing and makes use of bot messages in chatwoot to deliver a rich experiance. 
 
+[Learn more about agent bots](https://github.com/chatwoot/chatwoot/wiki/Building-on-Top-of-Chatwoot:-Agent-Bots)
+
 
 ## Getting Started on Local
 
@@ -15,16 +17,16 @@ It relies on google dialogflow to for its NLP processing and makes use of bot me
    
 ### Setup Chatwoot installation
 1) Create an AgentBot by running the following in your chatwoot rails console
-   ```
-   bot = AgentBot.create!(name: "Booking Bot", outgoing_url: "http://localhost:4000")
-   AgentBotInbox.create!(inbox: Inbox.first, agent_bot: bot)
-   # returns the token
-   bot.access_token.token
+```
+bot = AgentBot.create!(name: "Booking Bot", outgoing_url: "http://localhost:4000")
+AgentBotInbox.create!(inbox: Inbox.first, agent_bot: bot)
+# returns the token
+bot.access_token.token
 
-   # if you want to update the image of the bot
-   avatar_resource = LocalResource.new("your image url")
-   AgentBot.first.avatar.attach(io: avatar_resource.file, filename: avatar_resource.tmp_filename, content_type: avatar_resource.encoding)
-   ```   
+# if you want to update the image of the bot
+avatar_resource = LocalResource.new("your image url")
+AgentBot.first.avatar.attach(io: avatar_resource.file, filename: avatar_resource.tmp_filename, content_type: avatar_resource.encoding)
+```   
 ### Setting Up the Repo 
 1) Clone the repo to your local
 2) Copy `.env.example` to `.env` and update the values as mentions
