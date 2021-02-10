@@ -65,9 +65,20 @@ gcloud builds submit --tag gcr.io/$PROJECT_ID/agent_bot
 ```
 2) Go to cloud run and click create new service
 3) Choose the region and service name
+![1](https://user-images.githubusercontent.com/73185/107521780-f7d56f00-6bd8-11eb-95f6-ca82b2e909f4.png)
+
 4) Choose the agent_bot image upload now, and toggle advanced settings 
+
+![3](https://user-images.githubusercontent.com/73185/107521914-1cc9e200-6bd9-11eb-8564-e623688a3f24.png)
+
 5) Add the environment variables as required by `.env.example`
+
+![2 copy](https://user-images.githubusercontent.com/73185/107522304-94980c80-6bd9-11eb-98a0-66712accf66e.png)
+
 6) Allow all traffic and unauthenticated requests
+
+![4](https://user-images.githubusercontent.com/73185/107522039-42ef8200-6bd9-11eb-838e-47a3cc1b5752.png)
+
 7) Click Deploy 
 
 #### Update your chatwoot Agent Bot with the cloud run url
