@@ -1,5 +1,7 @@
 # Chatwoot Agent Bot Implementation using DialogFlow
 
+![chat-958d13cc16f58d1649ab8a35bb579586](https://user-images.githubusercontent.com/73185/107608463-129ff600-6c62-11eb-84f4-1dc1ebdbf1de.gif)
+
 This repo contains a sample rails api which acts an agent bot and showcases an example use case of hotel booking via bot
 It relies on google dialogflow to for its NLP processing and makes use of bot messages in chatwoot to deliver a rich experiance. 
 
