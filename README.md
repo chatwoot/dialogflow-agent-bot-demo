@@ -1,3 +1,11 @@
+# Archiving the Repo 
+
+Dialogflow is now available as a [native integration](https://www.chatwoot.com/docs/product/channels/live-chat/integrations/dialogflow) in Chatwoot. So it is recommended to use it instead. 
+
+Also, refer to [Chatwoot Implementation Samples](https://github.com/chatwoot/implementation-examples) for other examples.
+
+-----
+
 # Chatwoot Agent Bot Implementation using DialogFlow
 
 ![chat-958d13cc16f58d1649ab8a35bb579586](https://user-images.githubusercontent.com/73185/107608463-129ff600-6c62-11eb-84f4-1dc1ebdbf1de.gif)
